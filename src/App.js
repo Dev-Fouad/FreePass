@@ -1,10 +1,9 @@
 import './App.css';
+import Navbar from './Components/Header';
 
 function App() {
   return (
-    <h1 className="text-xl font-bold underline">
-      Hello world!
-    </h1>
+   <Navbar></Navbar>
   )
 }
 

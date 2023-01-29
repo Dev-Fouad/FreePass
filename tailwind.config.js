@@ -15,7 +15,8 @@ module.exports = {
         white: '#E9D7FE'
       },
       fontFamily: {
-        Raleway: ["Raleway", "sans-serif"]
+        Raleway: ["Raleway", "sans-serif"],
+        inter: ['Inter', "sans-serif"]
       },
       extend: {},
     },

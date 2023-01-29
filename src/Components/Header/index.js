@@ -30,7 +30,7 @@ function Header() {
             
 
             {/* The  */}
-            <div>
+            <div className="border-2 border-[#b71717] w-full h-2/5">
 
             </div>
         </>

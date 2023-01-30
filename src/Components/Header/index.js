@@ -3,7 +3,6 @@ import React from "react"
 import { BsChevronDown } from "react-icons/bs";
 import Button from "./UI/Button";
 import logo from "../Assets/logo.png";
-import Heropics from "./UI/Heropics.png"
 
 function Header() {
     return (
@@ -36,7 +35,6 @@ function Header() {
                 <p className="font-Raleway pt-[31.5px] text-xl text-[#E8E7E8]"> Deliver <span className="italic font-extrabold text-xl">Free Pass | Zero-Rated .</span> </p>
                 <p className="text-[19.2px] mt-[31.5px] leading-[29px]  font-Raleway font-medium text-[#E8E7E8] w-[436px]">Zero Rate by FreePass  platform is engineered<br/> to power on-demand and real-time crystal clear video, audio contents for underserved and underprivileged Africans.</p>
               </div>
-              <Heropics/>
             </div>
         </>
     )

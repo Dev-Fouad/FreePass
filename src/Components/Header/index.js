@@ -5,17 +5,15 @@ import Button from "./UI/Button";
 import logo from "../Assets/logo.png";
 import Heropics from "../Assets/Heropics.png"
 import Button2 from "./UI/Button2";
+import light from "../Assets/Light accent.png"
 
 function Header() {
     return (
         <>
-            {/* THE HEADER */}
-
             <div className="h-24 pl-36 pr-34 flex items-center bg-purple    max-md:pl-[22.5px] max-lg:pl-12">
-                {/* the logo */}
+
                 <img src={logo} alt="" />
 
-                {/* The nav links */}
                 <ul className=" ml-8 gap-3ml-8 text-[#E9D7FE] text-base font-semibold flex font-Raleway space-x-6   max-md:hidden max-lg:hidden">
                     <li>Home</li>
                     <li className="flex">Product<span className="pt-1 pl-2 "><BsChevronDown /></span></li>
@@ -24,15 +22,13 @@ function Header() {
                     <li>Contact Us</li>
                 </ul>
 
-                {/* Button */}
                 <Button>Sign Up</Button>
 
             </div>
 
 
-            {/* The  Hero*/}
-            <div className="flex border-2 h-[998px] pl-36 pt-[115px] bg-purple   max-md:pl-[22.5px] max-md:pr-[27.5px] max-md:pt-10  max-lg:pl-12 max-lg:pt-[80px]">
-                
+            <div className="flex h-[935.5px] pl-36 pt-[115px] bg-purple   max-md:pl-[22.5px] max-md:pr-[27.5px] max-md:pt-10  max-lg:pl-12 max-lg:pt-[80px]">
+
               <div>
                 <h2 className="font-Raleway font-semibold text-[47.78px] text-[#FFFFFF] leading-[56.09px]">Zero-rated digital<br/>content delivery<br/>platform for Africa</h2>
                 <p className="font-Raleway pt-[31.5px] text-xl text-[#E8E7E8]"> Deliver <span className="italic font-extrabold text-xl">Free Pass | Zero-Rated .</span> </p>
@@ -40,8 +36,9 @@ function Header() {
                 <Button2>Join our Waitlist</Button2>
               </div>
 
-              <div className="">
+              <div className="relative">
                <img src={Heropics} alt="" className="w-[774px] h-[604px] pb-6"/>
+                <img src={light} alt="" className="absolute top-[25rem] left-6 "/>
              </div>
               
             </div> 
@@ -49,4 +46,4 @@ function Header() {
     )
 }
 
-export default Header
+export default Header;

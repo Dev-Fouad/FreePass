@@ -5,7 +5,7 @@ import Header from "./Components/Header";
 import Onboarding from './Components/Onboarding/Index';
 import Features from "./Components/Features/Index"
 import Business from "./Components/Business/Index";
-
+import Sero from './Components/Sero';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Onboarding />
       <Features />
       <Business />
+      <Sero />
     </>
   )
 }

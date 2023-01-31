@@ -12,7 +12,11 @@ module.exports = {
       },
       colors: {
         purple: '#300053',
-        white: '#E9D7FE'
+        white: '#E9D7FE',
+        gray: '#FCF8FF',
+        bgpurple: '#4E0A80',
+        dark: '#667085',
+        black: '#101828'
       },
       fontFamily: {
         Raleway: ["Raleway", "sans-serif"],

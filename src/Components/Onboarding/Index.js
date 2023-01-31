@@ -10,7 +10,7 @@ import contact from "../Assets/Group 4375.png"
 function Onboarding() {
     return (
         <>
-            <div className=" flex h-[739px]  border-purple bg-gray items-center  justify-center flex-col max-lg:hidden">
+            <div className=" flex h-[739px]  bg-gray items-center  justify-center flex-col max-lg:hidden">
 
                 <h2 className="w-[580px] font-semibold text-[38.81px] text-center leading-[46.74px]  text-bgpurple">Video and Audio content for PAN-African access.</h2>
                 <p className=" font-Raleway w-[461px]  text-[19.2px] font-normal text-center leading-[31.5px] text-dark"> Zero-Rate (Data Free) access to multimedia content for africans</p>

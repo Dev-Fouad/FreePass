@@ -3,7 +3,8 @@ import React from 'react';
 import './App.css';
 import Header from "./Components/Header";
 import Onboarding from './Components/Onboarding/Index';
-import Foryou from "./Components/For You/Index";
+import Features from "./Components/Features/Index"
+import Business from "./Components/Business/Index";
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     <>
       <Header />
       <Onboarding />
-      <Foryou/>
+      <Features />
+      <Business />
     </>
   )
 }

@@ -6,6 +6,9 @@ import Onboarding from './Components/Onboarding/Index';
 import Features from "./Components/Features/Index"
 import Business from "./Components/Business/Index";
 import Sero from './Components/Sero';
+import Testimony from './Components/Testimony';
+import Footer from './Components/Footer/index';
+
 
 function App() {
   return (
@@ -15,6 +18,8 @@ function App() {
       <Features />
       <Business />
       <Sero />
+      <Testimony />
+      <Footer/>
     </>
   )
 }

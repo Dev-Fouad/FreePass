@@ -1,5 +1,4 @@
 import React from "react";
-import Book from "../../Assets/BOOK.png"
 
 function Board({image, text1, text2}) {
     return (

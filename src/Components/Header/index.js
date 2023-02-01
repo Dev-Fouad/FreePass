@@ -30,7 +30,7 @@ function Header() {
             </div>
 
 
-            <div className="flex h-[935.5px] pl-36 pt-[115px] bg-purple   max-md:pl-[28px] max-md:pr-[27.5px] max-md:pt-12  max-lg:pl-12 max-lg:pt-[80px] max-lg:flex-col max-md:h-[73rem] max-lg:h-[90rem]">
+            <div className="flex h-[935.5px]  justify-between pl-36 pt-[115px] bg-purple   max-md:pl-[28px] max-md:pr-[27.5px] max-md:pt-12  max-lg:pl-12 max-lg:pt-[80px] max-lg:flex-col max-md:h-[70rem] max-lg:h-[90rem] max-md:justify-start">
 
                 <div>
                     <h2 className="font-Raleway font-semibold text-[47.78px] text-[#FFFFFF] leading-[56.09px]    max-md:text-[36px] ">Zero-rated digital<br />content delivery<br />platform for Africa</h2>
@@ -40,8 +40,8 @@ function Header() {
                 </div>
 
                 <div className="relative">
-                    <img src={Heropics} alt="" className="w-[774px] h-[604px] pb-6    max-md:h-[355px] max-md:mt-[35px] max-lg:w-[700px]" />
-                    <img src={light} alt="" className=" absolute top-[25rem]  left-[10rem] max-md:hidden  max-lg:hidden " />
+                    <img src={Heropics} alt="" className="w-[774px] h-[604px] pb-6   mr-[5rem]  max-md:h-[355px] max-md:mt-[43px] max-lg:w-[700px] max-md:mr-0" />
+                    <img src={light} alt="" className=" absolute top-[25rem]  left-[0rem] max-md:hidden  max-lg:hidden " />
                     <img src={light2} alt="" className="hidden  max-md:block max-md:absolute max-md:top-[2rem] max-md:left-6 max-lg:hidden "/>
                 </div>
 

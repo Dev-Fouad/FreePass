@@ -41,7 +41,7 @@ function Header() {
 
                 <div className="relative">
                     <img src={Heropics} alt="" className="w-[774px] h-[604px] pb-6   mr-[5rem]  max-md:h-[355px] max-md:mt-[43px] max-lg:w-[700px] max-md:mr-0" />
-                    <img src={light} alt="" className=" absolute top-[25rem]  left-[0rem] max-md:hidden  max-lg:hidden " />
+                    <img src={light} alt="" className=" absolute top-[22.4rem]  left-[0rem] max-md:hidden  max-lg:hidden " />
                     <img src={light2} alt="" className="hidden  max-md:block max-md:absolute max-md:top-[2rem] max-md:left-6 max-lg:hidden "/>
                 </div>
 

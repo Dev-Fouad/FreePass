@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../Assets/Group (2).png"
+import bimg from "../Assets/Image.png"
 
 function AboutUs (){
     return (
@@ -16,12 +17,16 @@ function AboutUs (){
                 <p className=" border-2 w-[1079px] font-Raleway text-[48px] leading-[62px] text-center h-[186px] mt-[138px]">The technology behind an affordable and ubiquitous content distribution business.</p>
                 <p className=" w-[967px] border-2 text-[#667085] text-[19.2px] leading-[31.2px] font-normal h-[189px]">Technology is the muscle behind improved user experiences, as it directly relates to the business bottom line. As a digital content creator or distributor in Africa, by leveraging the right infrastructure, partner, or platform you can scale smarter, improve your user access base, and optimize the user experience. With Zero-Rate by FreePass powering things in the background, you can get back to focusing on what matters most for your content creation business.</p>
             
-                <div className=" w-[1117px] h-[400px] rounded-xl bg-[#721FAD] items-center justify-center flex">
+                <div className=" w-[1117px] h-[400px] rounded-xl bg-[#721FAD]  items-center flex justify-center">
                     <div>
                         <h2 className=" w-[509px] font-Raleway font-semibold leading-[46.74px] text-[38px] text-[#fff]">Give us a shot</h2>    
                         <p className=" text-[#E9D7FE] text-[19.2px] leading-[31.5px] font-Raleway w-[509px]">Join other businesses already using FreePass today!</p>
-                        {/* <button className="w-[127px] h-[48px] rounded-lg bg-[#D0D5DD] mt-[40px]">Learn More</button> */}
-                        {/* <button className=" ml-[12px] w-[127px] h-[48px] rounded-lg bg-[#7F56D9] mt-[40px] text-[#D0D5DD]">Learn more</button> */}
+                        <button className="w-[127px] h-[48px] rounded-lg bg-[#D0D5DD] mt-[40px]">Learn More</button>
+                        <button className=" ml-[12px] w-[127px] h-[48px] rounded-lg bg-[#7F56D9] mt-[40px] text-[#D0D5DD]">Get Started</button>
+                    </div>
+
+                    <div>
+                        <img src={bimg} alt=""  ></img>
                     </div>
                 </div> 
 

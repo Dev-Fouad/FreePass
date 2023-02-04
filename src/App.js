@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <AboutUs/>
-      <Header />
+      {/* <Header /> */}
       {/* <Onboarding /> */}
       {/* <Features /> */}
       {/* <Business /> */}

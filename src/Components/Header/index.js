@@ -26,16 +26,17 @@ function Header() {
 
                 <nav ref={navRef}>
                     <li>Home</li>
-                    <li>My work</li>
+                    <li>Product</li>
                     <li><Link  to="AboutUS" onClick={show}>About Us</Link></li>
                     <li><Link  to="ContactUS" onClick={show}>Contact Us</Link></li>
                     
                     <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                         <FaTimes />
                     </button>
-    
-                    <Button>Sign Up</Button>
                 </nav>
+
+                <Button>Sign Up</Button>
+
 
                 <button className="nav-btn" onClick={showNavbar}>
                     <FaBars />

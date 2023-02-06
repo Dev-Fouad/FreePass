@@ -21,10 +21,12 @@ header {
 	height: 90px;
     width: 100%;
 	padding: 0 2rem;
+	padding-left: 8rem;
 	background-color: #300053;
     position: fixed;
 	color: var(--textColor);
 }
+
 
 nav li {
 	margin: 0 1rem;
@@ -60,6 +62,10 @@ nav {
 	header .nav-btn {
 		visibility: visible;
 		opacity: 1;
+	}
+
+	header {
+		padding: 0 2rem;
 	}
 
 	header nav {

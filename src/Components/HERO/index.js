@@ -10,7 +10,6 @@ import Sero from "../Sero/index";
 import Testimony from "../Testimony/index";
 
 
-
 const Hero = () => {
   return (
     <>

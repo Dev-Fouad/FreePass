@@ -3,27 +3,45 @@ import React from "react"
 import { BsChevronDown } from "react-icons/bs";
 import Button from "./UI/Button";
 import logo from "../Assets/logo.png";
-
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import "./style.css"
 
 function Header() {
+    const navRef = useRef();
+
+	const showNavbar = () => {
+		navRef.current.classList.toggle("responsive_nav");
+	};
+
+    let show = () => {
+        navRef.current.classList.remove("responsive_nav")
+    }
+
     return (
         <>
-            <div className="h-24 pl-36 pr-34 flex items-center bg-purple    max-md:pl-[22.5px] max-lg:pl-12">
-
+            <header>
                 <img src={logo} alt="" />
 
-                <ul className=" ml-8 gap-3ml-8 text-[#E9D7FE] text-base font-semibold flex font-Raleway space-x-6   max-md:hidden max-lg:hidden">
+                <nav ref={navRef}>
                     <li>Home</li>
-                    <li className="flex">Product<span className="pt-1 pl-2 "><BsChevronDown /></span></li>
-                    <li>WhyFreepass</li>
-                    <li> <Link to="AboutUS">AboutUS</Link></li>
-                    <li><Link  to="ContactUS">Contact Us</Link></li>
-                </ul>
+                    <li>My work</li>
+                    <li><Link  to="AboutUS" onClick={show}>About Us</Link></li>
+                    <li><Link  to="ContactUS" onClick={show}>Contact Us</Link></li>
+                    
+                    <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+                        <FaTimes />
+                    </button>
+    
+                    <Button>Sign Up</Button>
+                </nav>
 
-                <Button>Sign Up</Button>
+                <button className="nav-btn" onClick={showNavbar}>
+                    <FaBars />
+                </button>
+            </header>
 
-            </div>
         </>
     )
 }

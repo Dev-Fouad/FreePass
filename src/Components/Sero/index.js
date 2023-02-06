@@ -5,7 +5,7 @@ import Book from "../Assets/Group 4368.png"
 import Bok from "../Assets/Group 4370.png"
 import Boks from "../Assets/Group 4375.png"
 
-function sero () {
+function Sero () {
     return (
         <>
             <div className=" h-[755px] bg-[#FAF7FC]  flex items-center justify-center flex-col max-md:h-[1533px] max-lg:h-[1600px]">
@@ -22,4 +22,4 @@ function sero () {
         </>
     )
 }
-export default sero;
+export default Sero;

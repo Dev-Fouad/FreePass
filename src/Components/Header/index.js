@@ -1,6 +1,5 @@
 import React from "react"
 
-import { BsChevronDown } from "react-icons/bs";
 import Button from "./UI/Button";
 import logo from "../Assets/logo.png";
 import { useRef } from "react";

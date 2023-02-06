@@ -4,10 +4,10 @@ import Img from "../Assets/Section (2).png"
 function ContactUS () {
     return(
         <>
-            <div className=" bg-[#fff] h-[998px] flex justify-between max-md:flex-col max-md:h-[700px] max-md:items-center max-md:justify-center">
+            <div className=" bg-[#fff] h-[998px] flex justify-between max-md:flex-col max-md:h-[760px] max-md:items-center max-md:justify-center">
 
                 <div className="w-[720px]  max-md:w-[350px] items-center justify-center flex flex-col">
-                    <h2 className=" text-[#101828] font-Raleway font-semibold w-[480px] text-[48px] leading-[60px] max-md:w-[330px]">Contact us</h2>
+                    <h2 className=" text-[#101828] font-Raleway font-semibold w-[480px] text-[48px] leading-[60px] max-md:w-[330px] max-md:mt-[7rem]">Contact us</h2>
                     <p className="w-[480px] mt-[24px] font-Raleway font-normal text-[20px] leading-[30px] text-[#475467] max-md:w-[330px]">Explore the Future with us, Feel free to get in touch</p>
 
                    <form className="grid mt-[48px] w-[480px] max-md:w-[330px]">

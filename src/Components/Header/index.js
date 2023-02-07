@@ -25,7 +25,7 @@ function Header() {
 
                 <nav ref={navRef}>
                     <li><Link  to="/" onClick={show}>Home</Link></li>
-                    <li>Product</li>
+                    <li><Link  to="Features" onClick={show}>Features</Link></li>
                     <li><Link  to="AboutUS" onClick={show}>About Us</Link></li>
                     <li><Link  to="ContactUS" onClick={show}>Contact Us</Link></li>
                     

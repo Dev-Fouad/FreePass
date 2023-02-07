@@ -8,6 +8,7 @@ import Onboarding from "../Onboarding/Index";
 import Business from "../Business/Index";
 import Sero from "../Sero/index";
 import Testimony from "../Testimony/index";
+import Features from "../Features/Index";
 
 
 const Hero = () => {
@@ -31,6 +32,7 @@ const Hero = () => {
     </div>
 
         <div>
+            <Features />
             <Onboarding/>
             <Business/>
             <Sero/>

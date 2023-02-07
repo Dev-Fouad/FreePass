@@ -5,7 +5,7 @@ import Helpers from "./UI/helpers";
 function Features() {
     return (
         <>
-            <div className=" h-[767px]  bg-[#FFFFFF] flex justify-center items-center space-x-[71px]  max-md:flex-col-reverse max-md:h-[1164px] max-md:space-x-0  max-lg:flex-wrap max-lg:h-[1300px]">
+            <div className=" h-[767px]  bg-[#FFFFFF] flex justify-center items-center space-x-[71px]  max-md:flex-col-reverse max-md:h-[1064px] max-md:space-x-0  max-lg:flex-wrap max-lg:h-[1300px]">
 
                 <img src={form} alt="" className="w-[512px] max-md:w-[341px] max-md:mt-12" />
 

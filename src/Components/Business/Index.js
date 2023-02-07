@@ -18,7 +18,7 @@ function Business (){
                 <Helpers Text="Host on-demand multimedia"/>
              </div>
 
-             <img src={BG} alt=""  className="w-[698px] h-[694px] max-md:h-[300px]  max-md:mt-16"></img>
+             <img src={BG} alt=""  className="w-[698px] h-[694px] max-md:h-[373px]  max-md:mt-16"></img>
             </div>
         </>
     )

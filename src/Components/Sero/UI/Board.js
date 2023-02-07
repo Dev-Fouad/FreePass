@@ -6,7 +6,7 @@ function Board({image, text1, text2}) {
             <img src={image} alt=""></img>
 
             <h2 className=" mt-[20.92px] text-[#000] font-Raleway text-[20.92px] font-semibold leading-[33.2px] w-[290px]  max-lg:w-[290px]">{text1}</h2>
-            <p className=" w-[312px] mt-[23.32px] font-semibold text-[14.26px] font-Raleway leading-[24.72px]  max-md:mt-[19px]  max-md:w-[297px] max-lg:w-[430px]">{text2}</p>
+            <p className=" w-[312px] mt-[23.32px] font-semibold text-[14.26px] font-Raleway leading-[24.72px]  max-md:mt-[11px]  max-md:w-[297px] max-lg:w-[430px]">{text2}</p>
         </div>
     )
 }

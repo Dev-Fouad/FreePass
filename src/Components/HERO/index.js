@@ -32,8 +32,8 @@ const Hero = () => {
     </div>
 
         <div>
-            <Features />
             <Onboarding/>
+            <Features />
             <Business/>
             <Sero/>
             <Testimony/>

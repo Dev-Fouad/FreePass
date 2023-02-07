@@ -24,7 +24,7 @@ function Header() {
                 <img src={logo} alt="" />
 
                 <nav ref={navRef}>
-                    <li>Home</li>
+                    <li><Link  to="/" onClick={show}>Home</Link></li>
                     <li>Product</li>
                     <li><Link  to="AboutUS" onClick={show}>About Us</Link></li>
                     <li><Link  to="ContactUS" onClick={show}>Contact Us</Link></li>

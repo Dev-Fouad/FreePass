@@ -25,6 +25,7 @@ header {
 	background-color: #300053;
     position: fixed;
 	color: var(--textColor);
+	z-index: 100;
 }
 
 

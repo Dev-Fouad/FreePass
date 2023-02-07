@@ -5,7 +5,7 @@ import bimg from "../Assets/Image.png"
 function AboutUs (){
     return (
         <>
-            <div className="h-[594px] bg-[#fff] flex flex-col items-center justify-center  max-md:h-[600px]">
+            <div className="h-[594px] bg-[#fff] flex flex-col items-center justify-center  max-md:h-[640px]">
                 <h2 className=" font-Raleway font-semibold text-[#7F56D9] max-md:mt-10">Why FreePass</h2>
                 <p className=" font-Raleway font-semibold text-[48px] leading-[60px] w-[960px] text-center mt-[12px] max-md:w-[350px] max-md:text-[20px] max-md:mt-[10px] max-md:leading-[30px]">The future of PAN-african content distribution starts with reducing last-mile access cost.</p>
                 <p className=" w-[1035px] text-[#667085] text-[19px] leading-[31.5px] font-normal mt-[24px] max-md:w-[350px]">Expectations for high-quality video & audio contents (real-time and on-demand) are at an all-time high in Africa. If access isn't affordable, reliable, fast, secure, and highly personalized, consumers take their attention or focus elsewhere. But today’s most innovative companies are thriving by meeting this challenge head on: they’re choosing FreePass and an investment in the PAN-African Content Delivery Network.</p>

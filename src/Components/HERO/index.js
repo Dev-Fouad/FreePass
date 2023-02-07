@@ -13,7 +13,7 @@ import Testimony from "../Testimony/index";
 const Hero = () => {
   return (
     <>
-    <div className="flex h-[940.5px]  justify-between pl-36 pt-[115px] bg-purple   max-md:pl-[28px] max-md:pr-[27.5px] max-md:pt-12  max-lg:pl-12 max-lg:pt-[80px] max-lg:flex-col max-md:h-[74rem] max-lg:h-[90rem] max-md:justify-start">
+    <div className="flex h-[970.5px]  justify-between pl-36 pt-[155px] bg-purple   max-md:pl-[28px] max-md:pr-[27.5px] max-md:pt-12  max-lg:pl-12 max-lg:pt-[80px] max-lg:flex-col max-md:h-[74rem] max-lg:h-[90rem] max-md:justify-start">
 
         <div>
             <h2 className="font-Raleway font-semibold text-[47.78px] text-[#FFFFFF] leading-[56.09px]    max-md:text-[36px] max-md:mt-[3rem] ">Zero-rated digital<br />content delivery<br />platform for Africa</h2>

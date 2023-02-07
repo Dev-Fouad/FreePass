@@ -7,7 +7,7 @@ function Features() {
         <>
             <div className=" h-[767px]  bg-[#FFFFFF] flex justify-center items-center space-x-[71px]  max-md:flex-col-reverse max-md:h-[1064px] max-md:space-x-0  max-lg:flex-wrap max-lg:h-[1200px]">
 
-                <img src={form} alt="" className="w-[512px] max-md:w-[341px] max-md:mt-16" />
+                <img src={form} alt="" className="w-[512px] max-md:w-[341px] max-md:mt-12" />
 
                 <div>
                     <h2 className=" font-Raleway font-semibold text-base text-blue ">For You</h2>
